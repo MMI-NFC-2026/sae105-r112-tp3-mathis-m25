@@ -16,5 +16,6 @@ if (carousel) {
   });
 }
 
+// Défilement en fonction de la largeur d'une image
 const premierItem = document.querySelector(".carousel__item");
 const scrollAmount = premierItem.clientWidth;
